@@ -5,11 +5,11 @@ import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class Fungame {
+public class Questions {
 
 	public static void main(String[] args)throws Exception 
 	{
-		String fileName = "C:/Users/QSP/Desktop/Caps_Training/25marchStudent.txt";
+		String fileName = "C:/Users/QSP/Downloads/Questions.txt";
 		ArrayList<String> allNames = new ArrayList<String>();
 		Random r = new Random();
 
@@ -21,7 +21,7 @@ public class Fungame {
 		
 		String randomName = allNames.get(r.nextInt(allNames.size()));
 
-		System.err.print("Lucky name :"+randomName);		
+		System.err.print(randomName);		
 
 
 	}
